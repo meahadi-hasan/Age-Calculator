@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/icons/Age Calculator-Favicon-192x192.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        
+        <div class="input-group">
+            <label>Birth Date</label>
+            <input type="date" id="birthDate" class="date-input" max="">
+        </div>
+
+        <div class="input-group">
+            <label>Find Age on</label>
+            <input type="date" id="targetDate" class="date-input">
+            <div class="current-date-group">
+                <div class="checkbox-label" onclick="toggleCurrentDate()">
+                    <div class="custom-checkbox" id="dateCheckbox"></div>
+                    <span>Use Today's Date</span>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="calculateAge()">Calculate Age</button>
+        
+        <div id="result"></div>
+        <div class="error" id="error"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
