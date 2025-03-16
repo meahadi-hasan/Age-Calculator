@@ -149,6 +149,57 @@ button:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 15px;
+        transform: none !important; 
+    }
+
+    h1 {
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .date-input {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    #result {
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    .checkbox-label span {
+        font-size: 14px;
+    }
+
+    .custom-checkbox {
+        width: 16px;
+        height: 16px;
+    }
+
+    .checkbox-label {
+        gap: 10px;
+        padding: 8px 0;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        padding: 3px;
+        transform: scale(0.8);
+    }
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 20px;
