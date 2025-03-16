@@ -28,11 +28,11 @@ Features clean UI and mobile-first design.
 **Modern CSS Features** - Gradients, transitions, media queries
 
 ## Code Structure 📂
-age-calculator/
-├── index.html         # Main application markup
-├── styles.css         # Styling and responsive design
-├── script.js          # Calculation logic and UI interactions
-└── assets/            # (Optional) Store images/icons
+    age-calculator/
+    ├── index.html         # Main application markup
+    ├── styles.css         # Styling and responsive design
+    ├── script.js          # Calculation logic and UI interactions
+    └── assets/            # (Optional) Store images/icons
     └── icons/
         └── Age Calculator-Favicon-192x192.png
 
