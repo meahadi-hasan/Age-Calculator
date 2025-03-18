@@ -149,6 +149,17 @@ button:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+        max-width: 90%;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
+
 
 @media (max-width: 480px) {
     .container {
